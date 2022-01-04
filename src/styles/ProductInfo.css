@@ -1,0 +1,468 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rasa', serif;
+  font-family: 'Spectral', serif;
+  margin: 0;
+}
+
+/*============================mobile==================================*/
+.new-arrivals {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+}
+
+.new-arrivals h1 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 2px solid #BFB2AB;
+}
+
+.new-arrivals .wrap_new-arrivals {
+  display: block;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.new-arrivals .wrap_new-arrivals .watch {
+  margin-top: 50px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .citizen-jewery {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .mido-silvergold {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .rado-gold {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .titan {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .bulova {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .bellisma {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .upcoming {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details {
+  margin: 10px;
+  padding: 0 20%;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details .company {
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details .name {
+  font-size: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details .price {
+  font-size: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .addToCart {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .addToCart:hover {
+  opacity: 0.7;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .buyNow {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 23px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .buyNow:hover {
+  background-color: #ffffff;
+  color: #BFB2AB;
+  border: 2px solid #BFB2AB;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.best-collections {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+}
+
+.best-collections h1 {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 2px solid #BFB2AB;
+}
+
+.best-collections .wrap_best-collections {
+  display: block;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.best-collections .wrap_best-collections .watch {
+  margin-top: 50px;
+}
+
+.best-collections .wrap_best-collections .watch .image {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.best-collections .wrap_best-collections .watch .image .robhayes-gold {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .wristrogy-gold {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .benson-pinkgold {
+  margin: 10px 10px;
+  height: 180px;
+}
+
+.best-collections .wrap_best-collections .watch .image .mido-silvergold2 {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .framingo {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .jord {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .upcoming {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.best-collections .wrap_best-collections .watch .details {
+  margin: 10px;
+  padding: 0 20%;
+}
+
+.best-collections .wrap_best-collections .watch .details .company {
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+}
+
+.best-collections .wrap_best-collections .watch .details .name {
+  font-size: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+.best-collections .wrap_best-collections .watch .details .price {
+  font-size: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.best-collections .wrap_best-collections .watch .button {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.best-collections .wrap_best-collections .watch .button .addToCart {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.best-collections .wrap_best-collections .watch .button .addToCart:hover {
+  opacity: 0.7;
+}
+
+.best-collections .wrap_best-collections .watch .button .buyNow {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 23px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.best-collections .wrap_best-collections .watch .button .buyNow:hover {
+  background-color: #ffffff;
+  color: #BFB2AB;
+  border: 2px solid #BFB2AB;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+/*=============================Desktop================================*/
+@media screen and (min-width: 1024px) {
+
+  .new-arrivals {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .new-arrivals h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    border-bottom: 2px solid #BFB2AB;
+  }
+  .new-arrivals .wrap_new-arrivals {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 5%;
+    margin: 6.5%;
+  }
+  .new-arrivals .wrap_new-arrivals .watch {
+    margin-bottom: 100px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #BFB2AB;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .citizen-jewery {
+    width: 350px;
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .mido-silvergold {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .rado-gold {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .titan {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .bulova {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .bellisma {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .upcoming {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #BFB2AB;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .details {
+    padding: 0;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .details .company {
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .details .name {
+    font-size: 18px;
+    width: 350px;
+    height: 80px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .details .price {
+    font-size: 18px;
+    width: 350px;
+    height: 23px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .button {
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .button .addToCart {
+    font-size: 20px;
+    background-color: #BFB2AB;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .button .addToCart:hover {
+    opacity: 0.7;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .button .buyNow {
+    font-size: 20px;
+    background-color: #BFB2AB;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 3px 30px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .button .buyNow:hover {
+    background-color: #ffffff;
+    color: #BFB2AB;
+    border: 2px solid #BFB2AB;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .best-collections {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .best-collections h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    border-bottom: 2px solid #BFB2AB;
+  }
+  .best-collections .wrap_best-collections {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 5%;
+    margin: 6.5%;
+  }
+  .best-collections .wrap_best-collections .watch {
+    margin-bottom: 100px;
+  }
+  .best-collections .wrap_best-collections .watch .image {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #BFB2AB;
+  }
+  .best-collections .wrap_best-collections .watch .image .robhayes-gold {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .image .wristrogy-gold {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .image .benson-pinkgold {
+    margin: 10px 10px;
+    height: 325px;
+  }
+  .best-collections .wrap_best-collections .watch .image .mido-silvergold2 {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .image .framingo {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .image .jord {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .upcoming {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #BFB2AB;
+  }
+  .best-collections .wrap_best-collections .watch .details {
+    padding: 0;
+  }
+  .best-collections .wrap_best-collections .watch .details .company {
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+  }
+  .best-collections .wrap_best-collections .watch .details .name {
+    font-size: 18px;
+    width: 350px;
+    height: 80px;
+  }
+  .best-collections .wrap_best-collections .watch .details .price {
+    font-size: 18px;
+    width: 350px;
+    height: 23px;
+  }
+  .best-collections .wrap_best-collections .watch .button {
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .best-collections .wrap_best-collections .watch .button .addToCart {
+    font-size: 20px;
+    background-color: #BFB2AB;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .best-collections .wrap_best-collections .watch .button .addToCart:hover {
+    opacity: 0.7;
+  }
+  .best-collections .wrap_best-collections .watch .button .buyNow {
+    font-size: 20px;
+    background-color: #BFB2AB;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 3px 30px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .best-collections .wrap_best-collections .watch .button .buyNow:hover {
+    background-color: #ffffff;
+    color: #BFB2AB;
+    border: 2px solid #BFB2AB;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+
+}
