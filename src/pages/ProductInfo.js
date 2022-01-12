@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import CitizenJewery from '../images/citizen-jewery.png';
 import MidoSilverGold from '../images/mido-silvergold.png';
 import RadoGold from '../images/rado-gold.png';
@@ -13,8 +14,11 @@ import TissotFramingo from '../images/tissot-framingo.webp';
 import JordTuesday from '../images/jord-tuesday.png';
 import '../styles/ProductInfo.css';
 import ProductModal from './ProductModal';
+import { addProduct } from '../actions';
 
 function ProductInfo() {
+
+  const dispatch = useDispatch();
 
   const [isModalToggle, setIsModalToggle] = useState(false);
 
@@ -49,7 +53,7 @@ function ProductInfo() {
         </div>
 
         <div class="button">
-          <button className="addToCart" onClick={IsModalToggle}>Add To Cart</button>
+          <button className="addToCart" onClick={() => {IsModalToggle(); dispatch(addProduct);}}>Add To Cart</button>
           <button className="buyNow">Buy Now</button>
         </div>
 
