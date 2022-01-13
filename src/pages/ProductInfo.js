@@ -53,8 +53,8 @@ function ProductInfo() {
         </div>
 
         <div class="button">
-          <button className="addToCart" onClick={() => {IsModalToggle(); dispatch(addProduct);}}>Add To Cart</button>
-          <button className="buyNow">Buy Now</button>
+          <button className="addToCart" onClick={() => {IsModalToggle()}}>Add To Cart</button>
+          <button className="buyNow" onClick={() => {dispatch(addProduct())}}>Buy Now</button>
         </div>
 
       </div>

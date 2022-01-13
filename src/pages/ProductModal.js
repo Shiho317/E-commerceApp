@@ -1,8 +1,13 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import CitizenJewery from '../images/citizen-jewery.png';
 import '../styles/ProductModal.css';
+import { addProduct } from '../actions';
 
 function ProductModal({isModalToggle, IsModalToggle}) {
+
+  const dispatch = useDispatch();
+
   return (
   <div>
   {isModalToggle ? (
@@ -42,7 +47,7 @@ function ProductModal({isModalToggle, IsModalToggle}) {
           </div>
           <div class="button-total">
             <button class="lookMore-total" onClick={IsModalToggle}>Look More</button>
-            <button class="buyNow-total">Buy Now</button>
+            <button class="buyNow-total" onClick={() => {dispatch(addProduct())}}>Buy Now</button>
           </div>
 
         </div>
